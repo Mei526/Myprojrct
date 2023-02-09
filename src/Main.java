@@ -11,7 +11,7 @@ class GuessTheNumber {
         int i;
         int guess;
         Random rand = new Random();
-        int number = 101 + rand.nextInt(900);
+        int number = 100 + rand.nextInt(900);
         Scanner sc = new Scanner(System.in);
 
         for (i = 0; i < tries; i++)   {
